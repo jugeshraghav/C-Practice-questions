@@ -104,5 +104,32 @@ int main(){
 // A0, A1, A2, … A8
 // #include<stdio.h>
 // int main(){
-//     int length, breadth;
+//     int A0w, A0h, A1w, A1h, A2w, A2h, A3w, A3h, A4w, A4h, A5w, A5h, A6w, A6h, A7w, A7h,A8w, A8h;
+//     printf("enter the width and height of paper 0: \n");
+//     scanf("%d %d",&A0w,&A0h);
+//     A1w=A0h;
+//     A1h=A0w/2;
+//     printf("The width and height of paper 1: %d %d \n", A1w,A1h);
+//       A2w=A1h;
+//     A2h=A1w/2;
+//     printf("The width and height of paper 1: %d %d \n", A2w,A2h);
+//        A3w=A2h;
+//     A3h=A2w/2;
+//     printf("The width and height of paper 1: %d %d \n", A3w,A3h);
+//        A4w=A3h;
+//     A4h=A3w/2;
+//     printf("The width and height of paper 1: %d %d \n", A4w,A4h);
+//     A5w=A4h;
+//     A5h=A4w/2;
+//     printf("The width and height of paper 1: %d %d \n", A5w,A5h);
+//     A6w=A5h;
+//     A6h=A5w/2;
+//     printf("The width and height of paper 1: %d %d \n", A6w,A6h);
+//     A7w=A6h;
+//     A7h=A6w/2;
+//     printf("The width and height of paper 1: %d %d \n", A6w,A6h);
+//     A8w=A7h;
+//     A8h=A7w/2;
+//     printf("The width and height of paper 1: %d %d \n", A8w,A8h);
+//     return 0;
 // }
