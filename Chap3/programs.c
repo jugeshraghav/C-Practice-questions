@@ -6,11 +6,65 @@
 // keyboard, write a program to determine whether the seller has
 // made profit or incurred loss. Also determine how much profit he
 // made or loss he incurred.
+// #include<stdio.h>
+// int main(){
+//     float cp, sp;
+//     printf("Enter the cost price and the selling price: \n");
+//     scanf("%f %f",&cp,&sp);
+//     if(cp>sp){
+//         printf("Loss of Rs: %f", cp-sp);
+//     }
+//     else{
+//         printf("Profit of Rs: %f", sp-cp);
+//     }
+//     return 0;
+// }
+
+
 // (b) Any integer is input through the keyboard. Write a program to find
 // out whether it is an odd number or even number.
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("Enter a number: \n");
+//     scanf("%d",&a);
+//     if(a%2==0)
+//     printf("%d is even",a);
+//     else
+//     printf("%d is odd",a);
+
+//     return 0;
+// }
+
+
 // (c) Any year is input through the keyboard. Write a program to
 // determine whether the year is a leap year or not.
 // (Hint: Use the % (modulus) operator)
+// #include<stdio.h>
+// int main(){
+//     int year;
+//     printf("Enter a year: \n");
+//     scanf("%d", &year);
+//     if(year%4==0){
+//         if(year%400==0){
+//             if(year%100!=0){
+//                 printf("%d is a leap year", year);
+//             }
+//             else{
+//                 printf("%d is not a leap year", year);
+//             }
+//         }
+//         else{
+//             printf("%d is not a leap year", year);
+//         }
+//     }
+//     else{
+//        printf("%d is not a leap year", year);
+//     }
+//     return 0;
+// }
+
+
 // (d) According to the Gregorian calendar, it was Monday on the date
 // 01/01/01. If any year is input through the keyboard write a program
 // to find out what is the day on 1st January of this year.
