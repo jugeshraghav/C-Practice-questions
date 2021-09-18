@@ -71,8 +71,54 @@
 // (e) A five-digit number is entered through the keyboard. Write a
 // program to obtain the reversed number and to determine whether
 // the original and reversed numbers are equal or not.
+// #include<stdio.h>
+// int main(){
+//     int number, revNum, d1,d2,d3,d4,d5;
+//     printf("Enter a five digit number: \n");
+//     scanf("%d",&number);
+//     d5=number%10;
+//     number=number/10;
+//     d4=number%10;
+//     number=number/10;
+//     d3=number%10;
+//     number=number/10;
+//     d2=number%10;
+//     number=number/10;
+//     d1=number%10;
+//     number=number/10;
+//     revNum=d5*10000+d4*1000+d3*100+d2*10+d1;
+//     number=d1*10000+d2*1000+d3*100+d4*10+d5;
+//     printf("The reversed number is: %d \n", revNum);
+//     if(number==revNum){
+//     printf("both the numbers are equal");
+//     }else
+//     {
+//     printf("The numbers are not equal");
+//     }
+//     return 0;
+// }
+
+
 // (f) If the ages of Ram, Shyam and Ajay are input through the keyboard,
 // write a program to determine the youngest of the three.
+// #include<stdio.h>
+// int main(){
+//     int Ram, Shyam, Ajay;
+//     printf("Enter the ages of Ram , Shyam, Ajay: \n");
+//     scanf("%d %d %d",&Ram,&Shyam,&Ajay);
+//     if(Ram<Shyam && Ram<Ajay){
+//         printf("Ram is the youngest among the three.");
+//     }
+//     else if(Shyam<Ram && Shyam<Ajay){
+//         printf("Shyam is the youngest among the three.");
+//     }
+//     else if(Ajay<Ram && Ajay<Shyam){
+//         printf("Ajay is the youngest among the three.");
+//     }
+// return 0;
+// }
+
+
 // (g) Write a program to check whether a triangle is valid or not, when
 // the three angles of the triangle are entered through the keyboard.
 // A triangle is valid if the sum of all the three angles is equal to 180
