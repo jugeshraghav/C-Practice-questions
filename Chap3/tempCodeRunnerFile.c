@@ -1,10 +1,10 @@
-int main( )
-{
-int i = 65 ;
-char j = ’A’ ;
-if ( i == j )
-printf ( "C is WOW\n" ) ;
-else
-printf ( "C is a headache\n" ) ;
-return 0 ;
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float a,absNum;
+    printf("enter a number: \n");
+    scanf("%f",&a);
+    absNum= abs(a);
+    printf("The absolute of %f is %f.",a,absNum);
+    return 0;
 }

@@ -127,7 +127,16 @@
 // where t is the temperature and v is the wind velocity. Write a
 // program to receive values of t and v and calculate wind chill factor
 // (wcf).
-
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     float t,v,wcf;
+//     printf("Enter the temperature and wind velocity: \n");
+//     scanf("%f %f", &t,&v);
+//     wcf= 35.74+(0.6215*t)+((0.4275*t)-35.75)* pow(0.16,v);
+//     printf("the wind chill factor is : %f",wcf);
+//     return 0;
+// }
 
 
 
